@@ -1,7 +1,7 @@
-package System;
+package app;
 
-import java.util.Scanner;
 import view.MenuLogin;
+import java.util.Scanner;
 
 /**
  * Classe GymFlowSystem - Classe principal do sistema GymFlow
