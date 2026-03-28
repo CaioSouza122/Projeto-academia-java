@@ -1,6 +1,6 @@
 package view;
 
-import Conection.Conexao;
+import connection.Conexao;
 import java.sql.*;
 import java.util.Scanner;
 import model.Aluno;
