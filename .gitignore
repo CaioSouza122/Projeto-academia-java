@@ -1,0 +1,40 @@
+# =============================================================
+#  GymFlow — .gitignore
+# =============================================================
+
+# ── Compilados Java ──────────────────────────────────────────
+*.class
+*.jar
+!libs/*.jar   # Mantém o driver JDBC do PostgreSQL
+*.war
+*.ear
+out/
+build/
+bin/
+
+# ── IntelliJ IDEA ────────────────────────────────────────────
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ── VS Code ──────────────────────────────────────────────────
+# Mantém .vscode/settings.json (configura o JDBC para quem clonar)
+.vscode/*
+!.vscode/settings.json
+
+# ── Maven / Gradle ──────────────────────────────────────────
+target/
+.gradle/
+*.gradle
+
+# ── Logs & temporários ──────────────────────────────────────
+*.log
+*.tmp
+*.swp
+*.DS_Store
+Thumbs.db
+
+# ── Variáveis de ambiente / segredos ───────────────────────
+.env
+*.env
